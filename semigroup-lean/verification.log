@@ -1,0 +1,17 @@
+$ lake build SemigroupDimension
+ℹ [2797/2798] Replayed SemigroupDimension
+info: ././././SemigroupDimension.lean:22:0: 'SemigroupDimension.witness_realizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././SemigroupDimension.lean:23:0: 'SemigroupDimension.two_by_two_thirteenth_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././SemigroupDimension.lean:24:0: 'SemigroupDimension.hasMatricialDimension_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ././././SemigroupDimension.lean:25:0: 'SemigroupDimension.matricial_dimension_eq_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.
+
+Exit code: 0
+
+$ lake env lean SemigroupDimensionVerified.lean
+'SemigroupDimension.witness_realizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemigroupDimension.two_by_two_thirteenth_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemigroupDimension.hasMatricialDimension_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SemigroupDimension.matricial_dimension_eq_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Exit code: 0
